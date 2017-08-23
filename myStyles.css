@@ -1,0 +1,51 @@
+body, html, h2{
+  margin:0;
+  padding:0;
+}
+
+#header{
+  width: 100%;
+  background-color: Beige;
+  height: 70px;
+  font-size: 20px;
+  padding-top: 12px;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif; /*"Lucida Sans Unicode", "Lucida Grande", sans-serif*/
+  color: DarkCyan;
+}
+
+.title{
+  padding: 15px;
+  font-size: 24px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#gradientText{
+  font-size: 45px;
+  padding-left: 20px;
+  background: -webkit-linear-gradient(SteelBlue, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#stiched{
+   padding: 20px;
+   margin: 10px;
+   background: SteelBlue;
+   color: #fff;
+   font-size: 21px;
+   line-height: 1.3em;
+   border: 2px dashed #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 0 8px SteelBlue, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   font-weight: normal;
+   width: 50%;
+}
+
+#outline{
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: Crimson;
+  color: transparent;
+  font-size: 70px;
+  padding-left: 20px;
+}
