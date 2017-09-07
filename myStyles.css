@@ -51,12 +51,12 @@ body, html, h2{
 }
 
 .typewriter h1 {
-  width: 500px;
+  width: 510px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 3px solid DarkCyan; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  letter-spacing: .15em;
   animation:
     typing 4.5s steps(30, end),
     blink-caret .75s step-end 40;
@@ -65,7 +65,7 @@ body, html, h2{
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 510px }
 }
 
 /* The typewriter cursor effect */
