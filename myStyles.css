@@ -73,3 +73,36 @@ body, html, h2{
   from, to { border-color: transparent }
   50% { border-color: DarkCyan; }
 }
+
+.thumbnail{
+  position: relative;
+}
+.thumbnail:after{
+  content:attr(data-text);
+  position: absolute;
+  white-space:pre-wrap;
+  left:0;
+  top:100%;
+  right:0;
+  bottom:0;
+  background-color:rgba(0,0,0,0.6);
+  color:#fff;
+  font-family: 'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  overflow: hidden;
+  word-wrap: break-word;
+  padding:5px 10px;
+  border-radius: 3px;
+  opacity:0;
+}
+.thumbnail:hover:after{
+  opacity:1;
+  top:0;
+  transition:.6s ease-in;
+}
+.thumbnail:first-line{
+  font-family:cursive;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5em;
+}
